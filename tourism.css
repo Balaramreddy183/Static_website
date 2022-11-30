@@ -1,0 +1,126 @@
+.margin-images {
+    margin: 20px;
+}
+
+.myprojects-page-bg-container {
+    padding: 20px;
+    text-align: center;
+    font-family: Bree serif;
+}
+
+.project-images-bg-container {
+    text-align: center;
+}
+
+.myproject-image {
+    height: 200px;
+}
+
+.myproject-heading {
+    color: #183b56;
+    font-size: 30px;
+}
+
+.home-project-images {
+    height: 100px;
+    margin: 5px;
+}
+
+.advanced-technologies-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");
+    height: 700px;
+    width: 350px;
+    background-size: cover;
+}
+
+.advanced-technologies-first-container {
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.advanced-technologies-button {
+    margin: 5px;
+}
+
+.diwali-top-section-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
+    background-size: cover;
+    height: 200px;
+    width: 380px;
+
+}
+
+.diwali-top-section-heading {
+    color: white;
+    font-family: "Caveat";
+    font-size: 36px;
+    width: 200px;
+    padding: 20px;
+}
+
+.diwali-bottom-container {
+    background-color: #e6f6ff;
+    padding: 20px;
+    width: 380px;
+    background-size: cover;
+}
+
+.diwali-bottom-image-container {
+    background-color: white;
+    border-radius: 15px;
+    height: 180px;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.diwali-bottom-image {
+    height: 80px;
+}
+
+.diwali-bottom-heading {
+    font-size: 15px;
+}
+
+.diwali-page-button {
+    text-align: center;
+}
+
+.happy-meal-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
+    height: 700px;
+    width: 350px;
+    background-size: cover;
+}
+
+.happpy-meal-first-container {
+    background-color: #FEBE8C;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 20px;
+    font-family: Bree serif;
+}
+
+.newspage-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
+    height: 700px;
+    width: 350px;
+    background-size: cover;
+}
+
+.newspage-first-container {
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 20px;
+
+}
+
+.newspage-first-container-heading {
+    font-size: 19px;
+}
+
+.newspage-first-container-paragraph {}

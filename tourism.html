@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="tourism.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div>
+      <div id="sectionMyprojects">
+          <div class="myprojects-page-bg-container">
+              <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" class="myproject-image" />
+              <h1 class="myproject-heading">My Projects</h1>
+              <p>These are a few of my Static Wesite Projects that I have developed using HTML,CSS,Bootstrap.</p>
+              <div>
+                  <div class="d-flex flex-row justify-content-center">
+                      <div>
+                          <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="home-project-images" onclick="display('sectionAdvancedtechnologies')" />
+                      </div>
+                      <div>
+                          <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" class="home-project-images" onclick="display('sectionDiwalipage')" />
+                      </div>
+                  </div>
+                  <div class="d-flex flex-row justify-content-center">
+                      <div>
+                          <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" class="home-project-images" onclick="display('sectionHappymeal')" />
+                      </div>
+                      <div>
+                          <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" class="home-project-images" onclick="display('sectionNewspage')" />
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div id="sectionAdvancedtechnologies" class="margin-images">
+          <div class="d-flex justify-content-center">
+              <div class="advanced-technologies-bg-container d-flex  flex-column justify-content-end">
+                  <div class="advanced-technologies-first-container">
+                      <h1>
+                          Advanced Technologies
+                      </h1>
+                      <p>Machinery and equipment developed from the application of scientific knowledge.</p>
+                      <div class="d-flex flex-row">
+                          <button class="advanced-technologies-button btn btn-light">Learn more</button>
+                          <button class="advanced-technologies-button btn btn-primary" onclick="display('sectionMyprojects')">Back</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div id="sectionDiwalipage" class="margin-images">
+          <div class="d-flex justify-content-center">
+              <div>
+                  <div class="diwali-top-section-container">
+                      <h1 class="diwali-top-section-heading">Celebrate Diwali with your friends</h1>
+                  </div>
+                  <div class="diwali-bottom-container">
+                      <div class="d-flex flex-row">
+                          <div class="diwali-bottom-image-container">
+                              <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" class="diwali-bottom-image" />
+                              <p class="diwali-bottom-heading">Diwali air ballon</p>
+                              <h1 class="diwali-bottom-heading">Rs 369</h1>
+                          </div>
+                          <div class="diwali-bottom-image-container">
+                              <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png" class="diwali-bottom-image" />
+                              <p class="diwali-bottom-heading">Diwali-lamp</p>
+                              <h1 class="diwali-bottom-heading">Rs 50</h1>
+                          </div>
+                      </div>
+                      <div class=" d-flex flex-row">
+                          <div class="diwali-bottom-image-container">
+                              <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png" class="diwali-bottom-image" />
+                              <p class="diwali-bottom-heading">Sparklers</p>
+                              <h1 class="diwali-bottom-heading">Rs 150</h1>
+                          </div>
+                          <div class="diwali-bottom-image-container">
+                              <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png" class="diwali-bottom-image" />
+                              <p class="diwali-bottom-heading">Fire Cracker</p>
+                              <h1 class="diwali-bottom-heading">Rs 560</h1>
+                          </div>
+                      </div>
+                      <div class="diwali-page-button">
+                          <button class=" btn btn-primary" onclick="display('sectionMyprojects')">Back</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div id="sectionHappymeal" class="margin-images">
+          <div class="d-flex  justify-content-center">
+              <div class="happy-meal-bg-container d-flex  flex-column justify-content-end">
+                  <div class="happpy-meal-first-container">
+                      <h1>
+                          Happy Meal
+                      </h1>
+                      <p>Discover the best foods over the 1,000 restaurants</p>
+                      <div class="d-flex flex-row">
+                          <button class="advanced-technologies-button btn btn-light">Learn more</button>
+                          <button class="advanced-technologies-button btn btn-primary" onclick="display('sectionMyprojects')">Back</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div id="sectionNewspage" class="margin-images">
+          <div class="d-flex justify-content-center">
+              <div class="d-flex flex-column justify-content-end newspage-bg-container">
+                  <div class="newspage-first-container">
+                      <p>NEWS OF THE DAY</p>
+                      <h1 class="newspage-first-container-heading">All educational institutions in Assam to reopen from November 2</h1>
+                      <P>
+                          Uttar Pradesh's fautam Buddh Nagar recorded 107 new Covid-19 cases on Saturday,pushing the district's infection tally to 15803,
+                          official data showed. The number of active cases came down further to 1,384 from 1,477 on Friday and 1,523 on Thrusday, according
+                          to the data released by the up Health Department for a 24-hour period
+                      </P>
+                      <div class="d-flex flex-row">
+                          <button class="advanced-technologies-button btn btn-dark">Learn more</button>
+                          <button class="advanced-technologies-button btn btn-primary" onclick="display('sectionMyprojects')">Back</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+  </body>
+</html>
